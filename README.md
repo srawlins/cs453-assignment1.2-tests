@@ -1,7 +1,11 @@
 Intro
 =====
 
-This repository is where I am keeping tests for assignment 1 for CS 453. There is also a test harness. To get started, just add your `myhtml2txt` to your `$PATH`, and run `myhtml2txt-test.sh`.
+This repository is where I am keeping tests for assignment 1 for CS 453. There is also a test harness. To get started, just clone this repo:
+
+    git clone https://github.com/srawlins/cs453-assignment1-tests
+
+Then add your `myhtml2txt` to your `$PATH`, and run `myhtml2txt-test.sh`.
 
 There is a recording of me doing all that jazz at [ascii.io](http://ascii.io/a/1053).
 
