@@ -17,6 +17,6 @@ Feel free to add your own input and expected output files, and they will be auto
 Contributing
 ============
 
-To contribute a test back to this repository, make sure to generate the expected output file by running the input file through Debray's provided `myhtml2txt`, and send me a pull request.
+To contribute a test back to this repository, make sure to generate the expected output file by running the input file through Debray's provided `myhtml2txt`, and send me a pull request. I have a recording of adding a new test [here](http://ascii.io/a/1054).
 
 To contribute to the harness, make sure to test whatever first.
