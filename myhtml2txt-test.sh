@@ -10,7 +10,7 @@ test_all () {
   success_count=0
   failure_count=0
   error_count=0
-  for test_file in $(find test -name "*.html")  # $test_file is like test/foo.html
+  for test_file in $(find tests -name "*.html")  # $test_file is like test/foo.html
   do
     let test_count++
     test_base=${test_file%.html}                # like test/foo
@@ -55,8 +55,8 @@ carry_out_test () {
 
     space_out_verbose_file
     echo -e "\033[31mFAILURE ${failure_count}:\033[0m ${test_name}" >> $verbose_file
-    echo "    The expected output file, \"${expected_file}\" does not match \`./myhtml2txt < ${test_file}\`:" >> $verbose_file
-    diff <(./myhtml2txt < ${test_file}) ${expected_file} 2>&1 |sed 's/^/    /' >> $verbose_file
+    echo "    The expected output file, \"${expected_file}\" does not match \`myhtml2txt < ${test_file}\`:" >> $verbose_file
+    diff <(myhtml2txt < ${test_file}) ${expected_file} 2>&1 |sed 's/^/    /' >> $verbose_file
   fi
 }
 
