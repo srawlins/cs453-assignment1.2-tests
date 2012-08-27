@@ -1,0 +1,12 @@
+This file has a few aaalmost tags:
+
+*      starts with a space:               < oops>
+*      only contains space:               < > and a few spaces: <    >
+*      starts with a tab:                 <	tab>
+*      containing only a tab:             <	>
+*      containing only a line feed:       <
+>
+*      containing only a carriage return: <> hehe
+*      containing only an RS character:   <>
+
+OK, that's all.
