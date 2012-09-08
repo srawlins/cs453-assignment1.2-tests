@@ -1,9 +1,0 @@
-Burt & Ernie. Peanut Butter & Jelly.
-
-The C logical "and" operator is &&. The C bitwise "and" operator is &.
-
-3 < pi < 4
-
-UA > ASU.
-
-"Testing shows the presence, not the absence of bugs." - Edsger Dijkstra

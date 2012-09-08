@@ -18,6 +18,15 @@ As `myhtml2txt` is run against each input file, the output is compared to the re
 
 Feel free to add your own input and expected output files, and they will be automatically run by the harness.
 
+Error Line Numbers
+==================
+
+How were line `tests/\*.error_lines` files generated? I took Debray's reference implementation and scraped the stderr for numbers:
+
+```
+../html2txt-2/myhtml2txt < tests/foo.html 2>&1 >/dev/null |sed 's/^\([0-9]\+\).*/\1/;s/.*[^0-9]\([0-9]\+\).*/\1/' > tests/foo.error_lines
+```
+
 Contributing
 ============
 
