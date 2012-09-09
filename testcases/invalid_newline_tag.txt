@@ -5,7 +5,9 @@
 
     you get to...
 
-    
+    <The invalid newline
+
+    tag!>
 
     OK now that was a not-real tag, but what I'm really getting at here is,
 
