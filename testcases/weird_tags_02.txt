@@ -1,0 +1,9 @@
+
+  
+  
+  
+    This text has poorly nested tags, but they're not among our subset of HTML tags, so I guess it's cool: This text is bold and italic, and no longer bold and no longer italic.
+
+    Foo barbazbat.
+  
+
