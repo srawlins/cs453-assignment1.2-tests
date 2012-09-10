@@ -1,0 +1,38 @@
+
+
+CSc 453: Fall 2012: Assignment 0
+
+
+
+CSc 453: Fall 2012: Assignment 0
+
+Assigned: Mon Aug 20.
+
+Due: Wed Aug 22.
+
+Tasks:
+
+
+
+Make sure you have a Unix account on lectura.cs.arizona.edu
+(a Computer Science Department computer).  Information on 
+accounts and labs is available 
+here.
+
+If your account has not been created by the time frame described
+here,
+contact CS Lab staff (email: lab at cs dot arizona dot edu).
+
+
+
+  Subscribe to the CSc 453 mailing list.  The procedure for doing this is
+  described here. 
+  
+  (I will get email when you do this, and you will get email notification
+  when I then add you to the mailing list.  These will serve as a record
+  of your completion of this assignment.)
+
+
+
+
+
